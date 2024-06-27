@@ -1,0 +1,219 @@
+npm uninstall -g create-react-app
+New major version of npm available! 9.5.0 -> 10.8.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+npm notice Run npm install -g npm@10.8.1 to update!
+
+npm cache clean --force
+
+A template was not provided. This is likely because you're using an outdated version of create-react-app.
+Please note that global installs of create-react-app are no longer supported.
+You can fix this by running npm uninstall -g create-react-app or yarn global remove create-react-app before using create-react-app again.
+
+pm ERR! code EBADENGINE
+npm ERR! engine Unsupported engine
+npm ERR! engine Not compatible with your version of node/npm: npm@10.8.1
+npm ERR! notsup Not compatible with your version of node/npm: npm@10.8.1
+npm ERR! notsup Required: {"node":"^18.17.0 || >=20.5.0"}
+npm ERR! notsup Actual:   {"npm":"9.5.0","node":"v18.15.0"}
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/cesarpacheco 1/.npm/_logs/2024-06-22T13_55_16_513Z-debug-0.log
+
+
+
+
+brew upgrade
+
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/cjpeg
+Target /usr/local/bin/cjpeg
+is a symlink belonging to jpeg-turbo. You can unlink it:
+  brew unlink jpeg-turbo
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite jpeg
+
+To list all files that would be deleted:
+  brew link --overwrite jpeg --dry-run
+
+
+  Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/2to3
+Target /usr/local/bin/2to3
+already exists. You may want to remove it:
+  rm '/usr/local/bin/2to3'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite python@3.12
+
+To list all files that would be deleted:
+  brew link --overwrite python@3.12 --dry-run
+
+Error: Cannot install terragrunt because conflicting formulae are installed.
+  tgenv: because tgenv symlinks terragrunt binaries
+
+Please `brew unlink tgenv` before continuing.
+
+Unlinking removes a formula's symlinks from /usr/local. You can
+link the formula again after the install finishes. You can `--force` this
+install, but the build may fail or cause obscure side effects in the
+resulting software.
+
+
+Segunda corrida:
+
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/kubectl
+Target /usr/local/bin/kubectl
+already exists. You may want to remove it:
+  rm '/usr/local/bin/kubectl'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite kubernetes-cli
+
+To list all files that would be deleted:
+  brew link --overwrite kubernetes-cli --dry-run
+
+Possible conflicting files are:
+/usr/local/bin/kubectl -> /Applications/Docker.app/Contents/Resources/bin/kubectl
+
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/node
+Target /usr/local/bin/node
+already exists. You may want to remove it:
+  rm '/usr/local/bin/node'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite node
+
+To list all files that would be deleted:
+  brew link --overwrite node --dry-run
+
+Possible conflicting files are:
+/usr/local/bin/node
+/usr/local/include/node/common.gypi
+/usr/local/include/node/config.gypi
+/usr/local/include/node/cppgc/common.h
+/usr/local/include/node/js_native_api.h
+/usr/local/include/node/js_native_api_types.h
+/usr/local/include/node/libplatform/libplatform-export.h
+/usr/local/include/node/libplatform/libplatform.h
+/usr/local/include/node/libplatform/v8-tracing.h
+/usr/local/include/node/node.h
+/usr/local/include/node/node_api.h
+/usr/local/include/node/node_api_types.h
+/usr/local/include/node/node_buffer.h
+/usr/local/include/node/node_object_wrap.h
+/usr/local/include/node/node_version.h
+/usr/local/include/node/v8-array-buffer.h
+/usr/local/include/node/v8-callbacks.h
+/usr/local/include/node/v8-container.h
+/usr/local/include/node/v8-context.h
+/usr/local/include/node/v8-data.h
+/usr/local/include/node/v8-date.h
+/usr/local/include/node/v8-debug.h
+/usr/local/include/node/v8-embedder-heap.h
+/usr/local/include/node/v8-embedder-state-scope.h
+/usr/local/include/node/v8-exception.h
+/usr/local/include/node/v8-extension.h
+/usr/local/include/node/v8-external.h
+/usr/local/include/node/v8-forward.h
+/usr/local/include/node/v8-function-callback.h
+/usr/local/include/node/v8-function.h
+/usr/local/include/node/v8-initialization.h
+/usr/local/include/node/v8-internal.h
+/usr/local/include/node/v8-isolate.h
+/usr/local/include/node/v8-json.h
+/usr/local/include/node/v8-local-handle.h
+/usr/local/include/node/v8-locker.h
+/usr/local/include/node/v8-maybe.h
+/usr/local/include/node/v8-memory-span.h
+/usr/local/include/node/v8-message.h
+/usr/local/include/node/v8-microtask-queue.h
+/usr/local/include/node/v8-microtask.h
+/usr/local/include/node/v8-object.h
+/usr/local/include/node/v8-persistent-handle.h
+/usr/local/include/node/v8-platform.h
+/usr/local/include/node/v8-primitive-object.h
+/usr/local/include/node/v8-primitive.h
+/usr/local/include/node/v8-profiler.h
+/usr/local/include/node/v8-promise.h
+/usr/local/include/node/v8-proxy.h
+/usr/local/include/node/v8-regexp.h
+/usr/local/include/node/v8-script.h
+/usr/local/include/node/v8-snapshot.h
+/usr/local/include/node/v8-statistics.h
+/usr/local/include/node/v8-template.h
+/usr/local/include/node/v8-traced-handle.h
+/usr/local/include/node/v8-typed-array.h
+/usr/local/include/node/v8-unwinder.h
+/usr/local/include/node/v8-value-serializer.h
+/usr/local/include/node/v8-value.h
+/usr/local/include/node/v8-version.h
+/usr/local/include/node/v8-wasm.h
+/usr/local/include/node/v8-weak-callback-info.h
+/usr/local/include/node/v8.h
+/usr/local/include/node/v8config.h
+/usr/local/share/doc/node/gdbinit
+/usr/local/share/doc/node/lldb_commands.py
+/usr/local/share/man/man1/node.1
+Warning: The post-install step did not complete successfully
+You can try again using:
+  brew postinstall node
+
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/2to3-3.11
+Target /usr/local/bin/2to3-3.11
+already exists. You may want to remove it:
+  rm '/usr/local/bin/2to3-3.11'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite python@3.11
+
+To list all files that would be deleted:
+  brew link --overwrite python@3.11 --dry-run
+
+Possible conflicting files are:
+/usr/local/bin/2to3-3.11 -> /Library/Frameworks/Python.framework/Versions/3.11/bin/2to3-3.11
+/usr/local/bin/idle3.11 -> /Library/Frameworks/Python.framework/Versions/3.11/bin/idle3.11
+/usr/local/bin/pydoc3.11 -> /Library/Frameworks/Python.framework/Versions/3.11/bin/pydoc3.11
+/usr/local/bin/python3.11 -> /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+/usr/local/bin/python3.11-config -> /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11-config
+
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/2to3-3.8
+Target /usr/local/bin/2to3-3.8
+already exists. You may want to remove it:
+  rm '/usr/local/bin/2to3-3.8'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite python@3.8
+
+To list all files that would be deleted:
+  brew link --overwrite python@3.8 --dry-run
+
+Possible conflicting files are:
+/usr/local/bin/2to3-3.8 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/2to3-3.8
+/usr/local/bin/idle3.8 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/idle3.8
+/usr/local/bin/pydoc3.8 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/pydoc3.8
+/usr/local/bin/python3.8 -> /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+/usr/local/bin/python3.8-config -> /Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8-config
+
+
+
+
+
+npx create-react-app ...
+
+
+1/4] 🔍  Resolving packages...
+⠁ (node:14423) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+

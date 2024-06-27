@@ -1,0 +1,1 @@
+Open editor menu <shift-command-p>

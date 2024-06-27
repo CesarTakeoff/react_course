@@ -1,0 +1,1 @@
+import 'whatwg-fetch'; // Para que funcione fetch en Jest
