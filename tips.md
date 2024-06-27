@@ -11,9 +11,13 @@ App > Router > Screen/Pagina > Menu > MeniItem
 ## useful sniped
 
 impr -> import react
-rafc -> quick component
+rafc -> quick component code generation
 
 ## installing components 
-yarn add <component>
-npm install <component>
+`yarn add <component>`
+`npm install <component>`
 
+# Despliege a produccion usando netlify
+generar carpeta de distribucion: `yarn build`
+
+copiar carpeta dist en un nuevo site
